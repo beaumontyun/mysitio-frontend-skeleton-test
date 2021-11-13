@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.vBox{
+    min-height : 200px;
+    background: gray;
+}
+@media (min-width:480px) {
+    .vBox { width: 400px }
+}
+@media (min-width:640px) {
+    .vBox { width: 600px }
+}
+@media (min-width:768px) {
+    .vBox { width: 700px }
+}
+@media (min-width:1024px) {
+    .vBox { width: 1000px }
+}
+@media (min-width:1280px) {
+    .vBox { width: 1200px }
+}
+@media (min-width:1536px) {
+    .vBox { width: 1500px }
+}
